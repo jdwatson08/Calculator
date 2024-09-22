@@ -12,15 +12,15 @@ def divide(a, b):
 
 def start():
     print("Welcome to the calculator!")
-    print("Please enter two numbers:")
-    a = int(input("Number 1: "))
-    b = int(input("Number 2: "))
     print("Please choose an operation:")
     print("1. Add")
     print("2. Subtract")
     print("3. Multiply")
     print("4. Divide")
     operation = int(input("Operation: "))
+    print("Please enter two numbers:")
+    a = int(input("Number 1: "))
+    b = int(input("Number 2: "))
     if operation == 1:
         print(a, "+", b, "=", add(a, b))
     elif operation == 2:
